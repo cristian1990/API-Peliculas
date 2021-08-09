@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+Este archivo se usa en el proceso de publicación y empaquetado del proyecto web. Para personalizar el comportamiento de este proceso,
+edite el archivo MSBuild. Visite https://go.microsoft.com/fwlink/?LinkID=208121 para obtener más información. 
+-->
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <TimeStampOfAssociatedLegacyPublishXmlFile />
+    <EncryptedPassword>AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAG47nzAeUh0+smrVVH5/GiQAAAAACAAAAAAAQZgAAAAEAACAAAACx/lIEC13MCVsK0LKkplNF8ZtA8ulFhmtpvPNjHFOxTAAAAAAOgAAAAAIAACAAAADHlbqpJ1V3J74UtONTNBSAcgMiWOchY7xGgAcwgfe3joAAAAChRPv6b77Lw7svaAz5dNQcPpSGA55hlsejACcdi8Y3BKmDPUq9crT8O1cqWTOwMIXXMfTUMHDXcBRgxdQ8IRgd4vm7m1kBkC3saYITfpFA3mGieImO1y6gfBNN2YwDhEG0TUN3Unshn8KPq5kzXPY/gF8bCp0wdJUJgii/PjSw0EAAAADv8op10Cw8OPW0o8LejIJh6QG9PqXYwnzBFx2dnf4qarHYRMwbVse5pkow4H5IyoNLPv5PIkecnmuR+lVWNtde</EncryptedPassword>
+  </PropertyGroup>
+  <ItemGroup>
+    <EFMigrations Include="back_end.ApplicationDbContext">
+      <Value>Data Source=tcp:back-enddbserver-peliculas.database.windows.net,1433%3bInitial Catalog=back-end_db%3bUser Id=crismo90%40back-enddbserver-peliculas%3bPassword=aA123456!</Value>
+    </EFMigrations>
+  </ItemGroup>
+</Project>
